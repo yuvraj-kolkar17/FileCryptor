@@ -1,6 +1,7 @@
-#include<iostream>
-#include<fstream>
-#include<string>
+#include <iostream>
+#include <fstream>
+#include <string>
+#include <filesystem>
 #include"auth.h"
 
 using namespace std;
@@ -16,7 +17,7 @@ string decrypt(string input){
 
 bool setPassword(){
 string password;
-cout<<"Set a new Vaut Password: ";
+cout<<"Set a new Vault Password: ";
 cin>>password;
 
 ofstream fout("config/password.cfg");
