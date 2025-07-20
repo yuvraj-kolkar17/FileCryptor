@@ -1,0 +1,7 @@
+/build/
+.vscode/
+vault/
+*.exe
+*.o
+*.obj
+*.log
